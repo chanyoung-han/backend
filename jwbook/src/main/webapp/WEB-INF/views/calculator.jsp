@@ -96,7 +96,7 @@
 	        
 	
 	        <div style="margin-top: 20px;">
-	            <a href="/">홈으로 돌아가기</a>
+	            <a href="/">Intro 페이지로 이동</a>
 	        </div>
 	    </div>
 	</body>

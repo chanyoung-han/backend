@@ -5,10 +5,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class HelloController {
-	@GetMapping("/mainStart")
-	public String hello(Model m) {
-		m.addAttribute("mainStart", "Spring! Project Start");
-		return "mainStart";
+public class jstlExamController {
+	@GetMapping("/jstlExam")
+	public String jstlExam(Model m) {
+		m.addAttribute("jstlExam", "jstlExam Controller");
+		return "jstlExam";
 	}
 }
